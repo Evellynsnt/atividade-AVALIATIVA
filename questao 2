@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-   // Declarar variavéis
+   // Declarar variavÃ©is
     cadeia nome, sexo, estadoCivil
     inteiro anosCasada
 
