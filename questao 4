@@ -1,22 +1,22 @@
 programa {
   funcao inicio() {
-    // Declarar variavéis.
+    // Declarar variavÃ©is.
     cadeia fruta
     inteiro kilo, valor, preco
     real desconto, total
 
   // Solicitar dados.
-    escreva("\n\t\t\t\t=====TABELA DE PREÇOS=====escreva")
-    escreva("\nO valor da maçã é de R$1,80 até 5Kg e R$1,50 acima de 5Kg")
-    escreva("\nO valor do morango é de R$2,50 até 5KG e R$2,20 acima de 5Kg")
+    escreva("\n\t\t\t\t=====TABELA DE PREÃ‡OS=====escreva")
+    escreva("\nO valor da maÃ§Ã£ Ã© de R$1,80 atÃ© 5Kg e R$1,50 acima de 5Kg")
+    escreva("\nO valor do morango Ã© de R$2,50 atÃ© 5KG e R$2,20 acima de 5Kg")
     escreva("\n\nQual fruta gostaria de comprar?")
     leia(fruta)
     escreva("\nQuantos kilos gostaria?")
     leia(kilo)
 
-    // Escolhas e cálculos.
+    // Escolhas e cÃ¡lculos.
     escolha (fruta) {
-      caso "maça" :
+      caso "maÃ§a" :
        se (kilo > 5) {
           total = 1.50 * kilo
        } senao{
