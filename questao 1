@@ -11,9 +11,9 @@ programa {
     leia(valorC)
 
     se (valorA + valorB < valorC) {
-      escreva("É MENOR QUE C")
+      escreva("Ã‰ MENOR QUE C")
     } senao{
-      escreva("É MAIOR QUE C")
+      escreva("Ã‰ MAIOR QUE C")
     } 
   }
 }
