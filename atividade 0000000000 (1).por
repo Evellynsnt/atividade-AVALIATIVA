@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+   // Declarar variavéis
+    cadeia nome, sexo, estadoCivil
+    inteiro anosCasada
+
+    // Solicitar dados. 
+    escreva("\nDigite seu nome:")
+    leia(nome)
+    escreva("\nDigite seu sexo (F/ M):")
+    leia(sexo)
+    escreva("\nDigite seu estado civil:")
+    leia(estadoCivil)
+
+   se (sexo == "F" e estadoCivil == "casada") {
+      escreva("\nDigite seus anos de casada:")
+      leia(anosCasada)
+   } senao {
+      (sexo == "F" e estadoCivil == "solteira") 
+   } 
+    // Exibir resultados.
+    escreva("\n=====EXIBIR RESULTADOS=====")
+    escreva("\nNome:", nome)
+    escreva("\nSexo:", sexo)
+    escreva("\nEstado Civil:", estadoCivil)
+    escreva("\nAnos de casada:", anosCasada) 
+
+  }
+}
