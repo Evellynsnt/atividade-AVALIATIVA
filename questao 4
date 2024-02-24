@@ -6,7 +6,7 @@ programa {
     real desconto, total
 
   // Solicitar dados.
-    escreva("\n\t\t\t\t=====TABELA DE PREÇOS=====escreva")
+    escreva("\n\t\t\t\t=====TABELA DE PREÇOS=====")
     escreva("\nO valor da maçã é de R$1,80 até 5Kg e R$1,50 acima de 5Kg")
     escreva("\nO valor do morango é de R$2,50 até 5KG e R$2,20 acima de 5Kg")
     escreva("\n\nQual fruta gostaria de comprar?")
