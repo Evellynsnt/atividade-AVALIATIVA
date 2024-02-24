@@ -1,7 +1,9 @@
-programa {
+programa
+ {
 	
-	funcao inicio() {
- 	// Declarar variavéis.
+	funcao inicio()
+ {
+// Declarar variavéis.
    cadeia nome
    inteiro quantidade
    real preco, total, desconto 
@@ -13,7 +15,7 @@ programa {
    escreva("\nQual o preço do produto?")
    leia(preco)
 
-   // Calcular desconto de 2%.
+// Calcular desconto de 2%.
    desconto = preco * 0.2
    
    se (quantidade <= 5) {
@@ -21,7 +23,7 @@ programa {
    	escreva("\nO total a ser pago vai ser:", total)
    }
    
-   // Calcular desconto de 3%.
+// Calcular desconto de 3%.
   desconto = preco * 0.3
   
   se (quantidade > 5 e quantidade <= 10) {
@@ -29,7 +31,7 @@ programa {
   	escreva("\nO total a ser pago vai ser:", total)
   }
 
-  // Calcularo desconto de 5%.
+  // Calcular o desconto de 5%.
   desconto = preco * 0.5
 
   se (quantidade > 10) {
