@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    // Declarar variavÈis.
+    // Declarar variav√©is.
     inteiro valorA, valorB, valorC, valor
 
     // Solicitar valores.
@@ -11,10 +11,10 @@ programa {
 
     se (valorA == valorB) {
       valorC = valorA + valorB
-      escreva("S√O VALORES IGUAIS", valor )
+      escreva("S√ÉO VALORES IGUAIS", valor )
     } senao{
       valorC = valorA * valorB
-      escreva("S√O VALORES DIFERENTES", valor)
+      escreva("S√ÉO VALORES DIFERENTES", valor)
     }
     escreva("valor de C:", valorC)
   }
