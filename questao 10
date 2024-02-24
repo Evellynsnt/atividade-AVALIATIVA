@@ -1,30 +1,30 @@
 programa {
 
-  // Exibir tabela de preÁos ao cliente.
+  // Exibir tabela de pre√ßos ao cliente.
   // Solicitar as devidas perguntas.
-  // Comandos e c·lculos (com descontos inclusos).
+  // Comandos e c√°lculos (com descontos inclusos).
   
   funcao inicio() {
-    // Declarar variavÈis.
+    // Declarar variav√©is.
     cadeia aAlcool, gGasolina, combustivel
     real preco, litro, totalPagar, desconto
 
     // Solicitar dados.
-    escreva("\n=====TABELA DE PRE«OS=====")
-    escreva("\nO ·lcool atÈ 25 litros, desconto de 2% por litro")
-    escreva("\nO ·lcool acima de 25 litros, desconto de 4% por litro")
-    escreva("\nA gasolina atÈ 25 litros, desconto de 3% por litro")
+    escreva("\n=====TABELA DE PRE√áOS=====")
+    escreva("\nO √°lcool at√© 25 litros, desconto de 2% por litro")
+    escreva("\nO √°lcool acima de 25 litros, desconto de 4% por litro")
+    escreva("\nA gasolina at√© 25 litros, desconto de 3% por litro")
     escreva("\nA gasolina acima de 25 litros, desconto de 5% por litro")
 
     // Perguntas ao cliente.
     escreva("\n\nQuantos litros gostaria?")
     leia(litro)
-    escreva("\nQual o tipo de combustÌvel?")
+    escreva("\nQual o tipo de combust√≠vel?")
     leia(combustivel)    
 
-    // Escolhas e c·lculos.
+    // Escolhas e c√°lculos.
     escolha (combustivel) {
-      caso "¡lcool" :
+      caso "√Ålcool" :
         preco = 3.79
         se (litro <= 25) {
           totalPagar = 3.79 * litro 
