@@ -4,24 +4,25 @@ programa
 	funcao inicio()
 	{
 		
-		inteiro rm, ep, pt, result
-		cadeia operacao
+		real rendaMensal, emprestimo, prestacao, resultado
+		
 		
 		escreva ("Digite seu renda mensal: ")
-		leia (rm)
+		leia (rendaMensal)
 
 		escreva ("Digite o valor do emprestimo: ")
-		leia (ep)
+		leia (emprestimo)
 		
 		escreva("Digite seu numero de prestações: ")
-		leia (pt)
+		leia (prestacao)
 
-		result = rm * 0.30 
+		resultado = rendaMensal * 0.30 
 		
-		se (ep >= rm * 10 e pt <= result)
-		escreva("O emprestimo pode ser concedido: ")
-		senao
-		escreva("O emprestimo nao pode ser concedido: ")
+		se (emprestimo >= rendaMensal * 10 e prestacao <= resultado) {
+		escreva("\nO EMPRÉSTIMO PODE SER CONCEDIDO")
+		} senao{
+		escreva("\nO EMPRÉSTIMO NÃO PODE SER CONCEDIDO")
+}
 		
 		
 	}
